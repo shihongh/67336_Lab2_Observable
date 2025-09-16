@@ -1,10 +1,10 @@
 // Hamburg Hall location
-// const longitude = -79.95;
-// const latitude = 40.44;
+const longitude = -79.95;
+const latitude = 40.44;
 
 // White House location
-const longitude = -77.0365;
-const latitude = 38.8977;
+// const longitude = -77.0365;
+// const latitude = 38.8977;
 
 // fetches the JSON from the given URL
 // if the fetch fails, it throws an error with the status code

@@ -1,3 +1,8 @@
+<!-- ---
+theme: dashboard
+toc: false
+--- -->
+
 # Weather Report
 
 ```js
@@ -25,6 +30,10 @@ function temperaturePlot(data, {width} = {}) {
 }
 ```
 
-```js
+<!-- ```js
 display(temperaturePlot(forecast));
-```
+``` -->
+
+<div class="grid grid-cols-1">
+  <div class="card">${resize((width) => temperaturePlot(forecast, {width}))}</div>
+</div>
